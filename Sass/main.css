@@ -1,0 +1,21 @@
+#nav_menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  margin: 0;
+}
+#nav_menu img {
+  width: 300px;
+  height: 300px;
+}
+#nav_menu .navigation {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+}
+#nav_menu .navigation li {
+  padding: 5px;
+  font-size: 18px;
+}

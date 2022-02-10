@@ -5,6 +5,7 @@
   align-items: center;
   width: 350px;
   margin: 0;
+  background: linear-gradient(#5656b4, white);
 }
 #nav_menu img {
   width: 300px;
@@ -18,4 +19,15 @@
 #nav_menu .navigation li {
   padding: 5px;
   font-size: 18px;
+}
+#nav_menu #map_nav {
+  -webkit-clip-path: ellipse(28% 50%);
+          clip-path: ellipse(28% 50%);
+}
+#nav_menu ul {
+  display: flex;
+  list-style: none;
+}
+#nav_menu li {
+  padding: 10px;
 }

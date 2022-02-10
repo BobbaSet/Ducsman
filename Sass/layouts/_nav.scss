@@ -5,6 +5,7 @@
     align-items: center;
     width: 350px;
     margin: 0;
+    background: linear-gradient(rgb(86, 86, 180), white);
 
     img{
         width: 300px;
@@ -20,5 +21,18 @@
     .navigation li{
         padding: 5px;
         font-size: 18px;
+    }
+
+    #map_nav{
+        clip-path:ellipse(28% 50%);
+    }
+
+    ul{
+        display: flex;
+        list-style: none;
+    }
+
+    li{
+        padding: 10px;
     }
 }

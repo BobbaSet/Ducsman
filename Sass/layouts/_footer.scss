@@ -5,8 +5,37 @@ footer{
     align-items: center;
     flex-direction: row;
     background: linear-gradient(to top,#faf0e6 , white);
+
     .img_footer{
         width: 150px;
         height: 150px;
+    }
+
+    .place{
+         margin: 0 auto;
+        .map_footer{
+        width: 40px;
+        height: 40px;
+        margin: 0 auto;
+    }
+
+    p{
+        text-align: center;
+        
+    }
+    }
+   
+    .icon_reseaux{
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        
+        li{
+            padding: 5px;
+        img{
+            width: 40px;
+            height: 40px;
+        }
+    }
     }
 }

@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   width: 350px;
+  height: 100%;
   margin: 0;
   background: linear-gradient(#5656b4, white);
 }
@@ -18,11 +19,11 @@
 }
 #nav_menu .navigation li {
   padding: 5px;
-  font-size: 18px;
+  font-size: 35px;
 }
 #nav_menu #map_nav {
-  -webkit-clip-path: ellipse(28% 50%);
-          clip-path: ellipse(28% 50%);
+  width: 280px;
+  height: 280px;
 }
 #nav_menu ul {
   display: flex;
@@ -30,4 +31,16 @@
 }
 #nav_menu li {
   padding: 10px;
+}
+
+p {
+  font-family: "Maitree", serif;
+}
+
+h2, ul, li {
+  font-family: "Amiri", serif;
+}
+
+h1 {
+  font-family: "Italianno", cursive;
 }

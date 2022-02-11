@@ -33,6 +33,11 @@
   padding: 10px;
 }
 
+body {
+  margin: 0 auto;
+  width: 1400px;
+}
+
 p {
   font-family: "Maitree", serif;
 }
@@ -43,4 +48,13 @@ h2, ul, li {
 
 h1 {
   font-family: "Italianno", cursive;
+}
+
+header {
+  background-image: url(../../img/Image_lorem.jpg);
+  display: flex;
+  height: 40vh;
+  width: 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

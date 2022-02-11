@@ -5,14 +5,15 @@
     align-items: center;
     position: fixed;
     z-index: 1;
-    width: 350px;
+    width: 250px;
     height: 100%;
-    margin: 0;
+    top: 0;
+    left: 0;
     background: linear-gradient(rgb(86, 86, 180), white);
 
     img{
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
     }
 
     .navigation{
@@ -22,22 +23,27 @@
     }
 
     .navigation li{
-        padding: 5px;
+        padding: 2px;
         font-size: 35px;
     }
 
     #map_nav{
-        width: 280px;
-        height: 280px;
+        width: 200px;
 
     }
 
-    ul{
+    .icon_reseaux{
         display: flex;
-        list-style: none;
+        list-style: none; 
+        
+        li{
+            padding: 5px;
+        img{
+            width: 40px;
+            height: 40px;
+        }
+    }
     }
 
-    li{
-        padding: 10px;
-    }
+   
 }

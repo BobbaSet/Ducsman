@@ -5,14 +5,15 @@
   align-items: center;
   position: fixed;
   z-index: 1;
-  width: 350px;
+  width: 250px;
   height: 100%;
-  margin: 0;
+  top: 0;
+  left: 0;
   background: linear-gradient(#5656b4, white);
 }
 #nav_menu img {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
 }
 #nav_menu .navigation {
   display: flex;
@@ -20,24 +21,26 @@
   flex-direction: column;
 }
 #nav_menu .navigation li {
-  padding: 5px;
+  padding: 2px;
   font-size: 35px;
 }
 #nav_menu #map_nav {
-  width: 280px;
-  height: 280px;
+  width: 200px;
 }
-#nav_menu ul {
+#nav_menu .icon_reseaux {
   display: flex;
   list-style: none;
 }
-#nav_menu li {
-  padding: 10px;
+#nav_menu .icon_reseaux li {
+  padding: 5px;
+}
+#nav_menu .icon_reseaux li img {
+  width: 40px;
+  height: 40px;
 }
 
 body {
-  margin: 0 auto;
-  width: 1400px;
+  overflow-x: hidden;
 }
 
 p {
@@ -56,8 +59,8 @@ header {
   background-image: url(../../img/Image_lorem.jpg);
   display: flex;
   height: 40vh;
-  width: 80%;
-  margin-left: 250px;
+  width: 100%;
+  margin-left: 200px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -69,7 +72,7 @@ header p {
   color: white;
   height: auto;
   width: 65%;
-  height: 50%;
+  height: 35%;
   margin-top: 5%;
-  margin-left: 20%;
+  margin-left: 15%;
 }

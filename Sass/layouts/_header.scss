@@ -3,6 +3,21 @@ header{
     display: flex;
     height: 40vh;
     width: 80%;
+    margin-left: 250px;
     background-size: cover;
     background-repeat: no-repeat;
-}
+    background-position: center;
+    z-index: 1;
+
+    p{
+        background-color: black;
+        text-align: center;
+        color: white;
+        height: auto;
+        width: 65%;
+        height: 50%;
+        margin-top: 5%;
+        margin-left: 20%;
+    }
+}    
+

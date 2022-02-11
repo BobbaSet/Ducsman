@@ -9,7 +9,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: linear-gradient(#5656b4, white);
+  background: linear-gradient(#faf0e6, white);
 }
 #nav_menu img {
   width: 200px;
@@ -75,4 +75,17 @@ header p {
   height: 35%;
   margin-top: 5%;
   margin-left: 15%;
+}
+
+footer {
+  display: flex;
+  margin-left: 250px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background: linear-gradient(to top, #faf0e6, white);
+}
+footer .img_footer {
+  width: 150px;
+  height: 150px;
 }

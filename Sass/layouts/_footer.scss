@@ -1,0 +1,12 @@
+footer{
+    display: flex;
+    margin-left: 250px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background: linear-gradient(to top,#faf0e6 , white);
+    .img_footer{
+        width: 150px;
+        height: 150px;
+    }
+}

@@ -10,6 +10,26 @@
     .grid-items{
         width: 250px;
         border: 2px solid black;
+        position: relative;
+
+        .price{
+            position: absolute;
+            left: 68%;
+            top: 1%;
+            background-color: black;
+            color: white;
+            padding: 2px;
+        }
+
+        .material{
+            position: absolute;
+            right: 78%;
+            bottom: 30%;
+            background-color: black;
+            color: white;
+            padding: 4px;
+        }
+
 
         img{
             width: 250px;

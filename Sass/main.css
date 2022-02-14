@@ -138,6 +138,23 @@ footer .icon_reseaux li img {
 .grid .grid-items {
   width: 250px;
   border: 2px solid black;
+  position: relative;
+}
+.grid .grid-items .price {
+  position: absolute;
+  left: 68%;
+  top: 1%;
+  background-color: black;
+  color: white;
+  padding: 2px;
+}
+.grid .grid-items .material {
+  position: absolute;
+  right: 78%;
+  bottom: 30%;
+  background-color: black;
+  color: white;
+  padding: 4px;
 }
 .grid .grid-items img {
   width: 250px;

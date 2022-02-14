@@ -76,6 +76,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   z-index: 1;
+  margin-bottom: 80px;
 }
 header p {
   background-color: black;
@@ -123,4 +124,22 @@ footer .icon_reseaux li {
 footer .icon_reseaux li img {
   width: 40px;
   height: 40px;
+}
+
+.grid {
+  display: grid;
+  max-width: 1200px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 330px;
+  width: 250px;
+  gap: 100px;
+  margin-bottom: 50px;
+}
+.grid .grid-items {
+  width: 250px;
+  border: 2px solid black;
+}
+.grid .grid-items img {
+  width: 250px;
+  height: auto;
 }

@@ -19,6 +19,7 @@
             background-color: black;
             color: white;
             padding: 2px;
+            border-radius: 2px;
         }
 
         .material{
@@ -28,12 +29,23 @@
             background-color: black;
             color: white;
             padding: 4px;
+            border-radius: 4px;
         }
 
+        h2{
+            color: #a88766 ;
+            margin: 0
+        }
+
+        img:hover{
+            filter: opacity(1);
+        }
 
         img{
             width: 250px;
-            height: auto;
+            height: 360px;
+            filter: opacity(0.55);
+            transition: 1s;
         }
     }
 }

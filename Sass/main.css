@@ -91,7 +91,7 @@ header p {
 footer {
   display: flex;
   max-width: 1200px;
-  margin-left: 300px;
+  margin-left: 250px;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
@@ -170,4 +170,16 @@ footer .icon_reseaux li img {
   height: 360px;
   filter: opacity(0.55);
   transition: 1s;
+}
+
+.article h2 {
+  margin-left: 250px;
+  color: #a88766;
+  text-align: center;
+}
+.article .para_apropos {
+  width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 330px;
 }

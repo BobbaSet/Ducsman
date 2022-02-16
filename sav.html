@@ -72,6 +72,52 @@
 
   <main>
 
+    <form method="post">
+
+      <div class="genre">
+        <input type="radio" id="h" name="sexe" value="homme">
+        <label for="h">Homme</label>
+        <input type="radio" id="f" name="sexe" value="femme">
+        <label for="f">Femme</label>
+        <input type="radio" id="other" name="sexe" value="autre">
+        <label for="other">Autre</label>
+      </div>
+
+      <div class="nom">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="name" required>
+        <label for="nom">Prénom :</label>
+        <input type="text" id="prenom" name="name" required>
+        <label for="age">Age :</label>
+        <input type="number" id="age" min="18" max="99">
+      </div>
+
+      <div class="contact">
+        <label for="email">Adresse email :</label>
+        <input type="mail" id="email" name="mail">
+        <label for="numero">Numéro de téléphone :</label>
+        <input type="number" id="numero" name="tel" required>
+      </div>
+
+      <div class="village">
+        <label for="code">Code postal :</label>
+        <input type="number" id="code" name="codepostal" required>
+        <label for="ville">Ville :</label>
+        <input type="text" id="ville" name="village" required>
+      </div>
+
+      <div class="sav">
+        <label for="achat">Date de votre achat :</label>
+        <input type="date" id="achat" name="achat" required>
+      </div>
+
+      <div class="msg">
+        <label for="message">Décrivez votre problème :</label>
+        <textarea name="story" id="message"></textarea>
+      </div>
+      
+    </form>
+
   </main>
 
   <footer>
